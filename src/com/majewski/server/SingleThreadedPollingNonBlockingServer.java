@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.concurrent.Executors;
 
-class SingleThreadedPollingNonBLockingServer {
+class SingleThreadedPollingNonBlockingServer {
     public static void main(String[] args) throws IOException {
         ServerSocketChannel ssc = ServerSocketChannel.open();
         ssc.bind(new InetSocketAddress(8080));
