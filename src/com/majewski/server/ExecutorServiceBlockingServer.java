@@ -1,6 +1,6 @@
 package com.majewski.server;
 
-import com.majewski.handlers.*;
+import com.majewski.server.handlers.*;
 
 import java.io.IOException;
 import java.net.ServerSocket;

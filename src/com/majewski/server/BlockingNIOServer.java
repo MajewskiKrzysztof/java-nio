@@ -1,11 +1,9 @@
 package com.majewski.server;
 
-import com.majewski.handlers.*;
+import com.majewski.server.handlers.*;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
-import java.net.ServerSocket;
-import java.net.Socket;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.concurrent.Executors;

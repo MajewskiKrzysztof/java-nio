@@ -1,16 +1,13 @@
-package com.majewski.handlers;
-
-import com.majewski.util.Util;
+package com.majewski.server.handlers;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
-import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Map;
 import java.util.Queue;
 
-import static com.majewski.util.Util.transmogrify;
+import static com.majewski.server.util.Util.transmogrify;
 
 public class ReadHandler implements Handler<SelectionKey> {
 

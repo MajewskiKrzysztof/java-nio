@@ -1,11 +1,11 @@
-package com.majewski.handlers;
+package com.majewski.server.handlers;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
-import static com.majewski.util.Util.transmogrify;
+import static com.majewski.server.util.Util.transmogrify;
 
 public class TransmogrifyHandler implements Handler<Socket> {
 

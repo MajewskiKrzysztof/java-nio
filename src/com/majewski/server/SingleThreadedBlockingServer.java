@@ -1,8 +1,8 @@
 package com.majewski.server;
 
-import com.majewski.handlers.Handler;
-import com.majewski.handlers.PrintingHandler;
-import com.majewski.handlers.TransmogrifyHandler;
+import com.majewski.server.handlers.Handler;
+import com.majewski.server.handlers.PrintingHandler;
+import com.majewski.server.handlers.TransmogrifyHandler;
 
 import java.io.IOException;
 import java.net.ServerSocket;

@@ -1,4 +1,4 @@
-package com.majewski.util;
+package com.majewski.server.util;
 
 import java.nio.ByteBuffer;
 

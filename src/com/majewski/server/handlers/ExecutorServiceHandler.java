@@ -1,4 +1,4 @@
-package com.majewski.handlers;
+package com.majewski.server.handlers;
 
 import java.io.UncheckedIOException;
 import java.util.concurrent.ExecutorService;

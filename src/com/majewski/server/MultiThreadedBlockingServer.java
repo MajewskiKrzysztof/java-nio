@@ -1,15 +1,12 @@
 package com.majewski.server;
 
-import com.majewski.handlers.*;
+import com.majewski.server.handlers.*;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.UncheckedIOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import static com.majewski.util.Util.transmogrify;
+import static com.majewski.server.util.Util.transmogrify;
 
 class MultiThreadedBlockingServer {
     public static void main(String[] args) throws IOException {

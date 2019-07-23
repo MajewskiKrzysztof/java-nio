@@ -1,4 +1,4 @@
-package com.majewski;
+package com.majewski.server;
 
 import java.io.IOException;
 import java.net.Socket;

@@ -1,4 +1,4 @@
-package com.majewski.handlers;
+package com.majewski.server.handlers;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.concurrent.ExecutorService;
 
-import static com.majewski.util.Util.transmogrify;
+import static com.majewski.server.util.Util.transmogrify;
 
 public class PooledReadHandler implements Handler<SelectionKey> {
 

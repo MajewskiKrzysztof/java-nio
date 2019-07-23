@@ -1,6 +1,6 @@
 package com.majewski.server;
 
-import com.majewski.handlers.*;
+import com.majewski.server.handlers.*;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -8,7 +8,6 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.concurrent.Executors;
 
 class SingleThreadedPollingNonBlockingServer {
     public static void main(String[] args) throws IOException {
