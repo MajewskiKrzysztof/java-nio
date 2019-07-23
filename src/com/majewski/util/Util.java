@@ -9,6 +9,7 @@ public class Util {
     }
 
     public static void transmogrify(ByteBuffer buf) {
+        System.out.println("Trasmogrification done by " + Thread.currentThread());
         // pos=0, limit=80, capacity=80
         // "hello\n" pos=6, limit=80, capacity=80
         buf.flip();
